@@ -1,0 +1,315 @@
+{
+    "DIMENSIONS": {
+        "dimensions": {
+            "model": {
+                "BCC-CSM2-MR": {},
+                "CanESM2": {},
+                "CCSM4": {},
+                "CSIRO-Mk3-6-0": {},
+                "NorESM1-M": {},
+                "MRI-ESM2-0": {}
+            },
+            "varname": {
+                "latitude(degN)": {},
+                "longitude(degE)": {},
+                "area (km2)": {},
+                "length(GCD)": {},
+                "width(GCD)": {}
+            },
+            "season": {
+                "NDJFM": {}
+            },
+            "statistic": {
+                "mean bias": {},
+                "ratio of STD": {},
+                "normalized bias": {}
+            }
+        },
+        "json_structure": [
+            "model",
+            "varname",
+            "season",
+            "statistic"
+        ]
+    },
+    "SCHEMA": {
+        "name": "CMEC",
+        "package": "PMP",
+        "version": "v1"
+    },
+    "provenance": {
+        "platform": {
+            "OS": "Linux",
+            "Version": "5.14.21-150400.24.69_12.0.74-cray_shasta_c",
+            "Name": "login30"
+        },
+        "userId": "dong12",
+        "osAccess": false,
+        "commandLine": "test_ERA5_metrics_loop.py",
+        "date": "2023-08-25 18:38:28",
+        "conda": {
+            "Version": "23.5.2",
+            "buildVersion": "not installed",
+            "PythonVersion": "3.11.4.final.0",
+            "Platform": "linux-64"
+        },
+        "packages": {
+            "python": "3.10.12",
+            "cdat_info": "8.2.1",
+            "cdms": "3.1.5",
+            "cdp": "1.7.0",
+            "cdtime": "3.1.4",
+            "cdutil": "8.2.1",
+            "esmf": "8.4.2",
+            "esmpy": "8.4.2",
+            "genutil": "8.2.1",
+            "blas": "0.3.23",
+            "lapack": "3.9.0",
+            "numpy": "1.22.4",
+            "clapack": null,
+            "mesalib": null,
+            "uvcdat": null,
+            "vcs": null,
+            "vtk": null,
+            "xarray": "2023.7.0",
+            "scipy": "1.11.1",
+            "xcdat": "0.5.0",
+            "matplotlib": null,
+            "PMP": "v3.0.2-11-g06b151f",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information."
+        },
+        "openGL": {
+            "GLX": {
+                "server": {},
+                "client": {}
+            }
+        }
+    },
+    "Variable": {},
+    "References": {},
+    "json_version": 3.0,
+    "RESULTS": {
+        "BCC-CSM2-MR": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": 0.58,
+                    "ratio of STD": 1.12,
+                    "normalized bias": 0.053240566422966165
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": 2.8,
+                    "ratio of STD": 1.03,
+                    "normalized bias": 0.06801387655979922
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": 90721.18,
+                    "ratio of STD": 1.07,
+                    "normalized bias": 0.07633595637777803
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.03,
+                    "ratio of STD": 1.03,
+                    "normalized bias": -0.0158968543202038
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.12,
+                    "ratio of STD": 0.99,
+                    "normalized bias": -0.015996328429733725
+                }
+            }
+        },
+        "CanESM2": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": 0.51,
+                    "ratio of STD": 1.04,
+                    "normalized bias": 0.046425019097185806
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": 0.43,
+                    "ratio of STD": 1.01,
+                    "normalized bias": 0.01045966583883606
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": -67473.88,
+                    "ratio of STD": 0.87,
+                    "normalized bias": -0.05677486828374891
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.44,
+                    "ratio of STD": 0.82,
+                    "normalized bias": -0.2418712051072529
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": -1.44,
+                    "ratio of STD": 0.81,
+                    "normalized bias": -0.1858245240039156
+                }
+            }
+        },
+        "CCSM4": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": 0.06,
+                    "ratio of STD": 1.17,
+                    "normalized bias": 0.00577715704574827
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": 1.61,
+                    "ratio of STD": 1.01,
+                    "normalized bias": 0.03903859776536467
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": 106451.81,
+                    "ratio of STD": 1.03,
+                    "normalized bias": 0.08957225273391949
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.02,
+                    "ratio of STD": 1.12,
+                    "normalized bias": -0.01306725272495037
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": 0.79,
+                    "ratio of STD": 0.98,
+                    "normalized bias": 0.10220067704391135
+                }
+            }
+        },
+        "CSIRO-Mk3-6-0": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": -0.72,
+                    "ratio of STD": 1.07,
+                    "normalized bias": -0.06596101615399486
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": -2.09,
+                    "ratio of STD": 0.97,
+                    "normalized bias": -0.05085345103148444
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": -48578.52,
+                    "ratio of STD": 0.9,
+                    "normalized bias": -0.040875652766358524
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.21,
+                    "ratio of STD": 0.98,
+                    "normalized bias": -0.11401540983178081
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.77,
+                    "ratio of STD": 0.86,
+                    "normalized bias": -0.09956189849138572
+                }
+            }
+        },
+        "NorESM1-M": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": 0.74,
+                    "ratio of STD": 1.17,
+                    "normalized bias": 0.06789491283065022
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": -0.39,
+                    "ratio of STD": 0.96,
+                    "normalized bias": -0.00944308376089969
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": 8487.02,
+                    "ratio of STD": 0.94,
+                    "normalized bias": 0.007141275484271132
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.39,
+                    "ratio of STD": 1.02,
+                    "normalized bias": -0.21304613601845965
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": 0.0,
+                    "ratio of STD": 0.91,
+                    "normalized bias": 3.7057051505334395e-05
+                }
+            }
+        },
+        "MRI-ESM2-0": {
+            "latitude(degN)": {
+                "NDJFM": {
+                    "mean bias": -1.7,
+                    "ratio of STD": 1.08,
+                    "normalized bias": -0.15536967606285737
+                }
+            },
+            "longitude(degE)": {
+                "NDJFM": {
+                    "mean bias": 5.38,
+                    "ratio of STD": 1.02,
+                    "normalized bias": 0.13090937443362433
+                }
+            },
+            "area (km2)": {
+                "NDJFM": {
+                    "mean bias": 16577.79,
+                    "ratio of STD": 1.06,
+                    "normalized bias": 0.013949125916610261
+                }
+            },
+            "length(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.05,
+                    "ratio of STD": 1.07,
+                    "normalized bias": -0.02622451831156188
+                }
+            },
+            "width(GCD)": {
+                "NDJFM": {
+                    "mean bias": -0.16,
+                    "ratio of STD": 1.02,
+                    "normalized bias": -0.020019159688427973
+                }
+            }
+        }
+    }
+}
