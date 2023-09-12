@@ -1,3 +1,9 @@
 title: sample6_cmec portrait plot test page
 author: Kristin Chang
 markdown: kramdown
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+  envs: development
